@@ -32,3 +32,5 @@ for dropout in "${dropouts[@]}"; do
 done
 
 python3 "$scripts/grapher.py"
+python3 "$scripts/table_gen.py"
+./generate_task2.sh
